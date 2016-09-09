@@ -1,0 +1,16 @@
+<div class="well row">
+	<form>
+		<div class="row">
+		    <label class="label-control" for="name">Nome</label>
+		    <input class="form-control" id="name" ng-model="pessoa.name" type="text" placeholder="Nome" />
+		</div>
+		<div class="row">
+		    <label class="label-control" for="age">Idade</label>
+		    <input class="form-control" id="age" ng-model="pessoa.age" type="number" placeholder="Idade" />
+		</div>
+		<hr/>
+		<div class="row">
+			<input ng-click="cadastrar(pessoa)" type="submit" name="Cadastrar" class="btn btn-primary">
+		</div>
+	</form>
+</div>

@@ -1,0 +1,21 @@
+<div class="well">
+	<div class="container-fluid">
+		<div class="row">
+			<button ng-click="navigateTo('/pessoas/new')" class="btn btn-success"><i class="glyphicon glyphicon-plus"/> adicionar</button>
+			<hr/>
+			<div ng-repeat="pessoa in pessoas">
+				<div class="panel panel-default">
+  					<div class="panel-heading">{{pessoa.name}}
+  						<a ng-click="delete(pessoa)" class="btn btn-xs btn-danger delete float-right">
+  						<i  class="glyphicon glyphicon-remove"/></a>
+  						<a ng-click="navigateTo('/pessoas/edit/' + pessoa.id)" class="btn btn-xs btn-primary delete float-right"><i  class="glyphicon glyphicon-edit"/></a>
+  					</div>
+  						<div class="panel-body">
+    						Idade: {{pessoa.age}}
+ 						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>	
