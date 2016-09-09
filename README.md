@@ -10,3 +10,5 @@ Run `grunt` for building and `grunt serve` for preview.
 ## Testing
 
 Running `grunt test` will run the unit tests with karma.
+
+## Este é um crud com fins didáticos, caso queira o back end, clone esse repositório: (https://github.com/FelipeBohnertPaetzold/crud)
